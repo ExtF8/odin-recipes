@@ -85,22 +85,24 @@ body {
     margin: 0;
 }
 .nav ul {
-    
+    display: flex;
+    flex-direction: rowgit status;
     padding: 10px;
     list-style: none;
     text-align: center;
     background-color: blanchedalmond;
 }
 .nav ul li {
+    flex: 1 1 auto;
     margin: 0;
     padding: 0;
-    display: inline-flex;
+    
 }
 .nav ul li a {
     font-size: larger;
     text-decoration: none;
-    padding: 50px;
-    display: block;
+    /* padding: 50px; */
+    /* display: block; */
     color: black;
     text-align: center;
 }
