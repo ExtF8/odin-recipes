@@ -23,7 +23,7 @@ body {
     background-color: rgb(230, 210, 181);
     overflow-wrap: break-word;
     font-size: 20px;
-    /*    font-family: 'Gayathri', sans-serif; -- link in html/ 
+    /*    font-family: 'Gayathri', sans-serif; -- link in html/
     /*    font-family: fontname; -- fontface */
 }
 
@@ -93,12 +93,10 @@ body {
     border: 3px dotted blue;
     /* left: 0px; */
     height: auto;
-    
     margin: 0;
 }
 .nav ul {
     border: 4px double black;
-    
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -114,17 +112,12 @@ body {
     /* flex: auto; */
     margin: 0;
     padding: 1;
-    
-    
 }
 .nav ul li a {
     font-size: larger;
     text-decoration: none;
-
- 
     color: black;
     /* text-align: center; */
-
 }
 
 
