@@ -1,3 +1,7 @@
+:root {
+    --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
 html {
     box-sizing: border-box;
 }
@@ -12,19 +16,11 @@ html {
     /* display: block; */
 }
 
-/*
-@font-face {
-    font-family: fontname;
-    src: url(https://fonts.gstatic.com/s/lato/v16/S6u_w4BMUTPHjxsI5wq_Gwftx9897g.woff2);
-}
-*/
-
 body {
+    font-family: var(--system-ui);
     background-color: rgb(230, 210, 181);
     overflow-wrap: break-word;
     font-size: 20px;
-    /*    font-family: 'Gayathri', sans-serif; -- link in html/
-    /*    font-family: fontname; -- fontface */
 }
 
 #bison {
