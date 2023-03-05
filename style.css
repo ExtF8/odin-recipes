@@ -1,5 +1,5 @@
 :root {
-    --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --system-ui: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 html {
@@ -8,12 +8,12 @@ html {
 
 *, *::before, *::after {
     box-sizing: inherit;
+
 }
 
 * {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* border: 2px solid red; */
-    /* display: block; */
+    margin: 0px;
+    padding: 0px;
 }
 
 body {
@@ -21,6 +21,12 @@ body {
     background-color: rgb(230, 210, 181);
     overflow-wrap: break-word;
     font-size: 20px;
+    border: 1px dot;
+}
+
+p {
+    width: clamp(45ch, 50%, 75ch);
+    padding: 15px;
 }
 
 #bison {
@@ -63,7 +69,7 @@ body {
 }
 
 .ul li {
-    padding: 1em;
+    padding: 10px;
 }
 
 .ol li {
